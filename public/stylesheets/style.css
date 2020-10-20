@@ -1,0 +1,32 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#login{
+  width: 400px;
+  height: 370px;
+  margin:  100px auto;
+}
+
+#register{
+  width: 400px;
+  height: 340px;
+  margin:  100px auto;
+}
+
+
+.alert{
+  width: 400px;
+  text-align: center;
+  margin: 0 auto;
+  /* display: none; */
+}
+
+#content { height:calc(100vh - 56px);}
+#content .welcome{ position: absolute; top:200px; left:50%; font-size: 30px; transform: translateX(-50%);}
+#content nav{ margin-bottom: -9999px; padding-bottom: 9999px; overflow: hidden; }
+#content main{ margin-bottom: -9999px; padding-bottom: 9999px; position: relative; overflow: hidden; }
+.breadcrumb{ background:transparent;}
+#menu .active{ text-decoration:underline; font-size:20px;}

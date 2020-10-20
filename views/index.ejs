@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <%- include('template/file')%>
+  </head>
+  <body>
+     <%- include('./template/header') %>
+     <div class="container-fluid">
+      <div id="content" class="row">
+          <%- include('template/menue' , { name : '' }) %>
+          <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+              <span class="welcome">欢迎您，访问拉钩网管理系统！！！！</span>
+          </main>
+      </div>
+  </div>
+  </body>
+</html>
